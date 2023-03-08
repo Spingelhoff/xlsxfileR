@@ -1,0 +1,14 @@
+Package: xlsxfileR
+Type: Package
+Title: A Pipeable Interface to Directory and Folder Creation and Use With xlsx Files
+Version: 0.1.0
+Author: Victor Lao
+Maintainer: Victor Lao <victorlelao@gmail.com>
+Description: A fileR based pipeable wrapper around commonly used openxlsx 
+    functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    openxlsx
+RoxygenNote: 7.2.3
