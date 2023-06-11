@@ -10,10 +10,10 @@ read_all_xlsx_from_results(folder_name = NULL, ...)
 \item{folder_name}{Optional. Character input. Specify sub folder in 'results'
 directory to read from.}
 
-\item{...}{Passes arguments into `read.xlsx()`.}
+\item{...}{Passes arguments to `read.xlsx()`.}
 }
 \description{
-Reads all csv files in the 'results' directory or in a sub folder of the 'results'
+Reads all xlsx files in the 'results' directory or in a sub folder of the 'results'
 directory and saves them all as a list. File names are used as names for
 list items to allow easy identification of files.
 }

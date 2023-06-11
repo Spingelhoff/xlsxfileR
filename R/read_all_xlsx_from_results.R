@@ -1,13 +1,15 @@
 #' Retrieves all files from the 'results' directory as a list.
 #'
 #' @description
-#' Reads all csv files in the 'results' directory or in a sub folder of the 'results'
+#' Reads all xlsx files in the 'results' directory or in a sub folder of the 'results'
 #' directory and saves them all as a list. File names are used as names for
 #' list items to allow easy identification of files.
 #'
 #' @param folder_name Optional. Character input. Specify sub folder in 'results'
 #' directory to read from.
-#' @param ... Passes arguments into `read.xlsx()`.
+#' @param ... Passes arguments to `read.xlsx()`.
+#'
+#' @importFrom openxlsx read.xlsx
 #'
 #' @export read_all_xlsx_from_results
 

@@ -2,13 +2,17 @@
 #'
 #' @description
 #' A wrapper around `read.xlsx()` but with a pre-determined path to the data
-#' directory. Sub folder is optional in data directory.
+#' directory. Sub folder is optional in data directory. If a folder is
+#' specified but does not currently exist, the function will create that
+#' folder.
 #'
 #' @param file_name Character input. Name of the file to be retrieved from
 #' 'data' directory without file extension.
 #' @param folder_name Optional. Character input. Specify sub folder in 'data'
 #' directory to read from.
 #' @param ... Passes arguments into `read.xlsx()`.
+#'
+#' @importFrom openxlsx read.xlsx
 #'
 #' @return File contents as an object.
 #'

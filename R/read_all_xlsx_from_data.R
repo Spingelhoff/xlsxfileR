@@ -9,6 +9,8 @@
 #' directory to read from.
 #' @param ... Passes arguments into `read.xlsx()`.
 #'
+#' @importFrom openxlsx read.xlsx
+#'
 #' @export read_all_xlsx_from_data
 
 read_all_xlsx_from_data <- function(folder_name = NULL, ...) {

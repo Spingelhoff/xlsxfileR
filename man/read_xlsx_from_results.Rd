@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_xlsx_from_results.R
 \name{read_xlsx_from_results}
 \alias{read_xlsx_from_results}
-\title{Retrieve file from results directory}
+\title{Retrieve file from 'results' directory.}
 \usage{
 read_xlsx_from_results(file_name, folder_name = NULL, ...)
 }
@@ -13,12 +13,12 @@ read_xlsx_from_results(file_name, folder_name = NULL, ...)
 \item{folder_name}{Optional. Character input. Specify sub folder in 'results'
 directory to read from.}
 
-\item{...}{Passes arguments into `read.xlsx()`.}
+\item{...}{Passes arguments to `read.xlsx()`.}
 }
 \value{
 File contents as an object.
 }
 \description{
 A wrapper around `read.xlsx()` but with a pre-determined path to the results
-directory. Sub folder is optional in results directory.
+directory. Sub folder is optional in 'results' directory.
 }
